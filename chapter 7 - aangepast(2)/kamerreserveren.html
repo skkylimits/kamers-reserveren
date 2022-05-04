@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamer reserveren</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header role="banner">
+        <nav class="mainNav">
+            <ul>
+                <li><a href="index.html" class="navLink" title="home">Home</a></li>
+                <li><a href="restaurant.html" class="navLink" title="Ons restaunt"> Restaurant</a></li>
+                <li><a href="kamerreserveren.html" class="navLink active" title="Over ons hotel">Kamers reserveren</a>
+                </li>
+                <li><a href="contact.html" class="navLink" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Kamers Reserveren</h1>
+
+    </header>
+    <main>
+        <section id="gereserveerd">
+            <h2 id="bevestigingstext">Deze kamer is gereserveerd<h2>
+                    <button id="annulerenBtn" class="buttonStyling">Annuleren </button>
+        </section>
+
+        <section class="flexcontainer">
+            <article id="standaard_kamer" class="flexItem">
+                <h2>Standaardkamer</h2>
+                <img src="images/standaardkamer.jpg" class="kamer">
+
+                <p>
+                    De standaardkamer bestaat uit een slaapkamer badkamer met douche en toilet. Ons bed is eenpersoons
+                    en is dus minder geschikt voor 2 volwassen dieren.
+                </p>
+                <button id="reserveerBtn" class="buttonStyling"> Reserveer Nu</button>
+
+            </article>
+
+            <article id="familie_kamer" class="flexItem">
+
+                <h2>Familie Kamer</h2>
+                <img src="images/familiekamer.jpg" class="kamer">
+                <p>
+                    Kamer voor 2 volwassenen en kinderen deze ruime gezinskamer met apparte kinderkamer en ruime
+                    badmaker heeft ook een stapelbed voor de kinderen. De ruime badkamer beschikt over een stortdouche
+                    en een ligbad.
+                </p>
+                <div id="mooieKnop" class="buttonStyling">Reserveer Nu</div>
+
+            </article>
+
+            <article id="suite" class="flexItem">
+
+                <h2>Suite Kamer</h2>
+                <img src="images/suitekamer.jpg" id="suiteImg" class="suite1 kamer">
+                <p>Dit is een grote kamer met bubbelbad en een kingsizebed met een grote balkon.
+                </p>
+
+                <h3>Klik op de suite om te reserveren!</h3>
+                <!-- <button id="reserveerSuit" class="buttonStyling">Reserveer Nu</button> -->
+
+            </article>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
