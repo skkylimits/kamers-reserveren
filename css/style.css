@@ -32,6 +32,7 @@ nav {
 .mainNav {
     background-color: #111111;
     font-size: 2rem;
+    display: flex;
 }
 
 main {
@@ -92,11 +93,11 @@ li {
     display: none;
 }
 
-img {
-    margin-bottom: 2rem;
-    display: block;
-    width: 600px;
+.hero-img {
+    margin: 1rem 0;
     height: 400px;
+    width: 600px;
+    border: 1px solid black;
 }
 
 #mooieKnop {
@@ -123,4 +124,23 @@ img {
 
 #gereserveerd {
     display: none;
+}
+
+.kamer {
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    margin: auto
+}
+
+.standaard-kamer {
+    background-image: url('/kamers-reserveren/images/standaardkamer.jpg');
+}
+
+.familie-kamer {
+    background-image: url('/kamers-reserveren/images/familiekamer.jpg');
+}
+
+.suite-kamer {
+    background-image: url('/kamers-reserveren/images/suiteKamer.jpg');
 }
